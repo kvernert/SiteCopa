@@ -1,261 +1,304 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Tabela</title>
-</head>
-<body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-sm bg-warning navbar-dark">
-            <div class="container-fluid">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active text-success" href="index.html">Tabela</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-success" href="ultima.html">Últimas</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-success" href="atletas.html">Atletas</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-success" href="#" role="button" data-bs-toggle="dropdown" >Países</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="catar.html">🇶🇦</a></li>
-                      <li><a class="dropdown-item" href="equador.html">🇪🇨</a></li>
-                      <li><a class="dropdown-item" href="senegal.html">🇸🇳</a></li>
-                      <li><a class="dropdown-item" href="holanda.html">🇳🇱</a></li>
-                      <li><a class="dropdown-item" href="holanda.html">🏴󠁧󠁢󠁥󠁮󠁧󠁿</a></li>
-                      <li><a class="dropdown-item" href="inglaterra.html">🇮🇷</a></li>
-                      <li><a class="dropdown-item" href="usa.html">🇺🇸</a></li>
-                      <li><a class="dropdown-item" href="paisdegales.html">🏴󠁧󠁢󠁷󠁬󠁳󠁿</a></li>
-                      <li><a class="dropdown-item" href="argentina.html">🇦🇷</a></li>
-                      <li><a class="dropdown-item" href="arabiasaudita.html">🇸🇦</a></li>
-                      <li><a class="dropdown-item" href="mexico.html">🇲🇽</a></li>
-                      <li><a class="dropdown-item" href="polonia.html">🇵🇱</a></li>
-                      <li><a class="dropdown-item" href="franca.html">🇫🇷</a></li>
-                      <li><a class="dropdown-item" href="autralia.html">🇦🇺</a></li>
-                      <li><a class="dropdown-item" href="dinamarca.html">🇩🇰</a></li>
-                      <li><a class="dropdown-item" href="tunisia.html">🇹🇳</a></li>
-                      <li><a class="dropdown-item" href="espanha.html">🇪🇸</a></li>
-                      <li><a class="dropdown-item" href="costarica.html">🇨🇷</a></li>
-                      <li><a class="dropdown-item" href="alemanha.html">Al</a></li>
-                      <li><a class="dropdown-item" href="japao.html">🇧🇪</a></li>
-                      <li><a class="dropdown-item" href="belgica.html">🇧🇪</a></li>
-                      <li><a class="dropdown-item" href="canada.html">🇨🇦</a></li>
-                      <li><a class="dropdown-item" href="marrocos.html">🇲🇦</a></li>
-                      <li><a class="dropdown-item" href="croacia.html">🇭🇷</a></li>
-                      <li><a class="dropdown-item" href="brasil.html">🇧🇷</a></li>
-                      <li><a class="dropdown-item" href="serbia.html">🇷🇸</a></li>
-                      <li><a class="dropdown-item" href="suica.html">🇨🇭</a></li>
-                      <li><a class="dropdown-item" href="camaroes.html">🇨🇲</a></li>
-                      <li><a class="dropdown-item" href="portugual.html">🇵🇹</a></li>
-                      <li><a class="dropdown-item" href="ghana.html">🇬🇭</a></li>
-                      <li><a class="dropdown-item" href="uruguai.html">🇺🇾</a></li>
-                      <li><a class="dropdown-item" href="coreiadosul.html">🇰🇷</a></li>
-                    </ul>
-                  </li>
-              </ul>
-            </div>
-          </nav>
-    </div>
-    <header>
-      <!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-  <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button> 
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
-  </div>
-  
-  <!-- The slideshow/carousel -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="container mt-3">          
-        <table class="table table-striped table-dark">
-          <thead>
-            <h1>Grupo A</h1>
-            <tr>
-              <th>Catar</th>
-              <th>Equador</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Senegal</td>
-              <td>Holanda</td>
-            </tr>
-          </tbody>
-        </table>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <title>Tabela</title>
+  <style>
+    td, th{
+      text-align: center;
+      line-height: 100px;
+      font-size: 30px;
+    }
+    tr{
+      height: 90px;
+    }
+    
+    </style>
+</head>
+
+<body>
+  <div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-sm bg-warning navbar-dark">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-success" href="index.html">Tabela</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="ultima.html">Últimas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="atletas.html">Atletas</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-success" href="#" role="button" data-bs-toggle="dropdown">Países</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="catar.html">🇶🇦</a></li>
+              <li><a class="dropdown-item" href="equador.html">🇪🇨</a></li>
+              <li><a class="dropdown-item" href="senegal.html">🇸🇳</a></li>
+              <li><a class="dropdown-item" href="holanda.html">🇳🇱</a></li>
+              <li><a class="dropdown-item" href="holanda.html">🏴󠁧󠁢󠁥󠁮󠁧󠁿</a></li>
+              <li><a class="dropdown-item" href="inglaterra.html">🇮🇷</a></li>
+              <li><a class="dropdown-item" href="usa.html">🇺🇸</a></li>
+              <li><a class="dropdown-item" href="paisdegales.html">🏴󠁧󠁢󠁷󠁬󠁳󠁿</a></li>
+              <li><a class="dropdown-item" href="argentina.html">🇦🇷</a></li>
+              <li><a class="dropdown-item" href="arabiasaudita.html">🇸🇦</a></li>
+              <li><a class="dropdown-item" href="mexico.html">🇲🇽</a></li>
+              <li><a class="dropdown-item" href="polonia.html">🇵🇱</a></li>
+              <li><a class="dropdown-item" href="franca.html">🇫🇷</a></li>
+              <li><a class="dropdown-item" href="autralia.html">🇦🇺</a></li>
+              <li><a class="dropdown-item" href="dinamarca.html">🇩🇰</a></li>
+              <li><a class="dropdown-item" href="tunisia.html">🇹🇳</a></li>
+              <li><a class="dropdown-item" href="espanha.html">🇪🇸</a></li>
+              <li><a class="dropdown-item" href="costarica.html">🇨🇷</a></li>
+              <li><a class="dropdown-item" href="alemanha.html">🇩🇪</a></li>
+              <li><a class="dropdown-item" href="japao.html">🇯🇵</a></li>
+              <li><a class="dropdown-item" href="belgica.html">🇧🇪</a></li>
+              <li><a class="dropdown-item" href="canada.html">🇨🇦</a></li>
+              <li><a class="dropdown-item" href="marrocos.html">🇲🇦</a></li>
+              <li><a class="dropdown-item" href="croacia.html">🇭🇷</a></li>
+              <li><a class="dropdown-item" href="brasil.html">🇧🇷</a></li>
+              <li><a class="dropdown-item" href="serbia.html">🇷🇸</a></li>
+              <li><a class="dropdown-item" href="suica.html">🇨🇭</a></li>
+              <li><a class="dropdown-item" href="camaroes.html">🇨🇲</a></li>
+              <li><a class="dropdown-item" href="portugual.html">🇵🇹</a></li>
+              <li><a class="dropdown-item" href="ghana.html">🇬🇭</a></li>
+              <li><a class="dropdown-item" href="uruguai.html">🇺🇾</a></li>
+              <li><a class="dropdown-item" href="coreiadosul.html">🇰🇷</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
+    </nav>
+  </div>
+  <header>
+    <div class="progress">
+      <div class="progress-bar bg-success" style="width:20%"></div>
     </div>
-    <div class="carousel-item">
-      <div class="container mt-3">          
-        <table class="table table-striped table-dark">
-          <thead>
-            <h1>Grupo B</h1>
-            <tr>
-              <th>Catar</th>
-              <th>Equador</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Senegal</td>
-              <td>Holanda</td>
-            </tr>
-          </tbody>
-        </table>
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+
       </div>
-    </div>
-    </div>
-    <div class="carousel-item">
-      <div class="container mt-3">          
-        <table class="table table-striped table-dark">
-          <thead>
-            <h1>Grupo C</h1>
-            <tr>
-              <th>Catar</th>
-              <th>Equador</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Senegal</td>
-              <td>Holanda</td>
-            </tr>
-          </tbody>
-        </table>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="container mt-3">
+            <table class="table table-striped table-dark">
+              <thead>
+                <h1>Grupo A</h1>
+                <tr>
+                  <th>CAT 🇶🇦</th>
+                  <th>X</th>
+                  <th>EQU 🇪🇨</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>SEN 🇸🇳</td>
+                  <td>X</td>
+                  <td>HOL 🇳🇱</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container mt-3">
+            <table class="table table-striped table-dark">
+              <thead>
+                <h1>Grupo B</h1>
+                <tr>
+                  <th>ING 🏴󠁧󠁢󠁥󠁮󠁧󠁿</th>
+                  <th>X</th>
+                  <th>IRA 🇮🇷</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>EUA 🇺🇸</td>
+                  <th>X</th>
+                  <td>GALES 🏴󠁧󠁢󠁷󠁬󠁳󠁿</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container mt-3">
+            <table class="table table-striped table-dark">
+              <thead>
+                <h1>Grupo C</h1>
+                <tr>
+                  <th>ARG 🇦🇷</th>
+                  <th>X</th>
+                  <th>ARS 🇸🇦</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>MEX 🇲🇽</td>
+                  <th>X</th>
+                  <td>POL 🇵🇱</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container mt-3">
+            <table class="table table-striped table-dark">
+              <thead>
+                <h1>Grupo D</h1>
+                <tr>
+                  <th>FRA 🇫🇷</th>
+                  <th>X</th>
+                  <th>AUS 🇦🇺</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>DIN 🇩🇰</td>
+                  <th>X</th>
+                  <td>TUR 🇹🇳</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container mt-3">
+            <table class="table table-striped table-dark">
+              <thead>
+                <h1>Grupo E</h1>
+                <tr>
+                  <th>ESP 🇪🇸</th>
+                  <th>X</th>
+                  <th>CRC 🇨🇷</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ALE 🇩🇪</td>
+                  <th>X</th>
+                  <td>JAP 🇯🇵</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container mt-3">
+            <table class="table table-striped table-dark">
+              <thead>
+                <h1>Grupo F</h1>
+                <tr>
+                  <th>BEL 🇧🇪</th>
+                  <th>X</th>
+                  <th>CAN 🇨🇦</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>MAR 🇲🇦</td>
+                  <th>X</th>
+                  <td>CRO 🇭🇷</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container mt-3">
+            <table class="table table-striped table-dark">
+              <thead>
+                <h1>Grupo G</h1>
+                <tr>
+                  <th>BRA 🇧🇷</th>
+                  <th>X</th>
+                  <th>SER 🇷🇸</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>SUI 🇨🇭</td>
+                  <th>X</th>
+                  <td>CAM 🇨🇲</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container mt-3">
+            <table class="table table-striped table-dark">
+              <thead>
+                <h1>Grupo H</h1>
+                <tr>
+                  <th>POR 🇵🇹</th>
+                  <th>X</th>
+                  <th>GAN 🇬🇭</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>URU 🇺🇾</td>
+                  <th>X</th>
+                  <td>COR 🇰🇷</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
     </div>
-    </div>
-  </div>
-  <div class="carousel-item">
-    <div class="container mt-3">          
-      <table class="table table-striped table-dark">
-        <thead>
-          <h1>Grupo D</h1>
-          <tr>
-            <th>Catar</th>
-            <th>Equador</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Senegal</td>
-            <td>Holanda</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-  </div>
+  </header>
+
+  <h1>FASES DE GRUPOS</h1>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <h1>GRUPO A</h1>
+        <th>Catar</th>
+        <th>Equador</th>
+        <th>Senegal</th>
+        <th>Holanda</th>
+      </tr>
+    </thead>
+    <tbody>
 </div>
-<div class="carousel-item">
-  <div class="container mt-3">          
-    <table class="table table-striped table-dark">
-      <thead>
-        <h1>Grupo E</h1>
-        <tr>
-          <th>Catar</th>
-          <th>Equador</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Senegal</td>
-          <td>Holanda</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-</div>
-</div>
-<div class="carousel-item">
-  <div class="container mt-3">          
-    <table class="table table-striped table-dark">
-      <thead>
-        <h1>Grupo F</h1>
-        <tr>
-          <th>Catar</th>
-          <th>Equador</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Senegal</td>
-          <td>Holanda</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-</div>
-</div>
-<div class="carousel-item">
-  <div class="container mt-3">          
-    <table class="table table-striped table-dark">
-      <thead>
-        <h1>Grupo G</h1>
-        <tr>
-          <th>Catar</th>
-          <th>Equador</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Senegal</td>
-          <td>Holanda</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-</div>
-</div>
-<div class="carousel-item">
-  <div class="container mt-3">          
-    <table class="table table-striped table-dark">
-      <thead>
-        <h1>Grupo H</h1>
-        <tr>
-          <th>Catar</th>
-          <th>Equador</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Senegal</td>
-          <td>Holanda</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-</div>
-</div>
-  
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
-    </header>
 </body>
+
 </html>
